@@ -16,6 +16,11 @@ https://templatemo.com/tm-516-known
     text-align: center;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto 100px auto ;
+  }
+
 
   /*---------------------------------------
      TYPOGRAPHY              
@@ -398,6 +403,7 @@ object-fit: cover;
 
   #home h1 {
     color: #bebdbd;
+    margin-top:30%;
   }
 
   #home h3 {
